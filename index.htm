@@ -79,19 +79,24 @@ header{
 	cursor: pointer;
 }
 
-/*El siguiente estilo está preparado para usar la imagen spritesMalaga.png*/
+/*El siguiente estilo está preparado para usar la imagen spritesMalaga.png del directorio img*/
 #diputa{
+	/*Dentro del div diputa estará la imagen de diputación como fondo*/
+	/*Pegamos este div a la izquierda*/
 	float: left;
+	/*Le damos la dimensión que tiene la imagen*/
 	width:230px;
 	height: 43px;
-	vertical-align: middle;
+	/*Hacemos que se separe el div de arriba (top)*/
 	margin-top: 5px;
-
+	/*ponemos como imagen de fondo el archivo spritesMalaga.png, desplazándolo 95px a la izquierda y 2px hacia arriba*/
+	/*esto hace que se muestren 230x43 px correspondientes a la imagen de dpton coloreada*/
 	background:url(img/spritesMalaga.png) no-repeat -95px -2px;
 }
 
 #diputa:hover{
-	/*al pasar el ratón sobre el div*/
+	/*al pasar el ratón sobre el div hacemos que la imagen se desplace esta vez
+	97px a la izquierda y 47 hacia arriba, haciendo que se muestren 230x43 px de la imagen de dpton en gris*/
 	background:url(img/spritesMalaga.png) no-repeat -97px -47px;
 }
 	</style>
