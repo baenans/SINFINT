@@ -22,9 +22,82 @@ time, mark, audio, video {
 
 
 header{
+	width: 100%;
+	height: 65px;
+	padding-top:20px;
+}
+.logo{
+	width:232px;
+	height:38px;
+	background-image:url('../img/spritesMalaga.png');
+	background-repeat:no-repeat;
+	background-position:-95px -7px;
+}
+.logo:hover{
+	background-position:-97px -52px;
+}
+.wrapper{
+	width: 950px;
+	margin: 0 auto;
+}
 
+.menu{
+	width: 100%;
+	height: 65px;	
+}
+.submenu{
+	width: 100%;
+	height: 30px;
+}
+.menu ul, .submenu ul{
+	list-style: none;
+	color: white;
+	font-family: Verdana;
+}
+.menu ul{
+	padding-top: 15px;
+}
+.submenu ul{
+	padding-top: 3px;
+}
+.menu li, .submenu li{
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+}
+.menu li:hover{
+	border-bottom: 3px solid white;
+	cursor: pointer;
+}
+.submenu li:hover{
+	border-bottom: 1px solid white;
+	cursor: pointer;
+}
+
+.menu li{
+	font-size: 25px;
+}
+
+.submenu li{
+	font-size: 17px;
+}
+
+.darkBlue{
+	background-color: #1168D9;
+}
+.blue{
+	background-color: #117CD9;
+}
+.softBlue{
+	background-color: #0D9FD9;
+}
+
+.grayBorderBottom{
+	border-bottom: 1px solid gray;
 }
 
 footer{
-
+	margin-top:300px;
+	width: 100%;
+	height: 300px;
 }
