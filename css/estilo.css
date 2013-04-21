@@ -23,6 +23,54 @@ time, mark, audio, video {
 body{
 	font-family: 'DroidSans',"Helvetica Neue","HelveticaNeue",Helvetica,Arial,"Lucida Grande",sans-serif;
 }
+
+/*COLORES DE FONDO*/
+.darkBlue{
+	background-color: #1168D9;
+}
+.blue{
+	background-color: #117CD9;
+}
+.softBlue{
+	background-color: #0D9FD9;
+}
+/*BORDE GRIS*/
+.grayBorderBottom{
+	border-bottom: 1px solid gray;
+}
+
+/*WRAPPER*/
+.wrapper{
+	width: 950px;
+	margin: 0 auto;
+}
+
+/*TABLAS*/
+
+table{
+	width: 100%;
+	border:none;
+	border-spacing: 0;
+}
+tr{
+	height: 35px;
+}
+td,th{
+	vertical-align: middle;
+	padding-left: 20px;
+	border-top: .5px solid #CFCFCF;
+}
+
+th{
+	font-weight: bold;
+	text-align: left;
+}
+
+tr:nth-child(even) { background: #F5F5F5 }
+tr:nth-child(odd) { background: #fff}
+
+
+/*HEADER*/
 header{
 	width: 100%;
 	height: 65px;
@@ -44,14 +92,10 @@ header{
 
 .titulo{
 	display: inline-block;
-	font-size: 32px;
+	font-size: 32∏px;
 	float: right;
 }
-.wrapper{
-	width: 950px;
-	margin: 0 auto;
-}
-
+/* MENU Y SUBMENU*/
 .menu{
 	width: 100%;
 	height: 65px;	
@@ -91,21 +135,12 @@ header{
 .submenu li{
 	font-size: 17px;
 }
-
-.darkBlue{
-	background-color: #1168D9;
-}
-.blue{
-	background-color: #117CD9;
-}
-.softBlue{
-	background-color: #0D9FD9;
+/*MAIN BODY*/
+.cuerpoPrincipal{
+	padding-top: 40px;
 }
 
-.grayBorderBottom{
-	border-bottom: 1px solid gray;
-}
-
+/* FOOTER */
 footer{
 	position: absolute;
 	bottom:0px;
