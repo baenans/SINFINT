@@ -29,8 +29,11 @@ header{
 	padding-top:20px;
 }
 .logo{
+	display: inline-block;
+
 	width:232px;
 	height:38px;
+	vertical-align: -40%;
 	background-image:url('../img/spritesMalaga.png');
 	background-repeat:no-repeat;
 	background-position:-95px -7px;
@@ -38,9 +41,14 @@ header{
 .logo:hover{
 	background-position:-97px -52px;
 }
+
+.titulo{
+	display: inline-block;
+	font-size: 36px;
+	float: right;
+}
 .wrapper{
 	width: 950px;
-	clear: both;
 	margin: 0 auto;
 }
 
