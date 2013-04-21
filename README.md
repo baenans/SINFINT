@@ -1,6 +1,1 @@
-SINFINT
-=======
-
-Trabajo de Sistemas Informáticos para Internet
-
-- [x] responsive
+Trabajo de Sistemas de Información para Internet
