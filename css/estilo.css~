@@ -1,0 +1,247 @@
+/*RESET CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	font-family: 'DroidSans',"Helvetica Neue","HelveticaNeue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	background-color: #FAFAFA;
+}
+
+/*PÁRRAFOS, HEADINGS, TAMAÑO DE FUENTE*/
+p{
+	clear: both;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 30px;
+}
+
+h1{
+	font-size: 35px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+
+.big{
+	font-size: 20px;
+	font-weight: thin;
+}
+hr{
+	margin:20px 0;
+	border:0;
+	border-top:1px solid #eee;
+	border-bottom:1px solid #fff
+}
+/*BORDES REDONDEADOS*/
+.bordesRedondeados{
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/*LOGIN BOX*/
+.loginBox{
+	 	max-width: 300px;
+        padding: 19px 29px 29px;
+        margin: 60px auto 20px;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+        -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+		box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.loginBox h2{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"] {
+		border: 1px solid #e5e5e5;
+		display:block;
+		width:100%;
+		box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;	
+		min-height:30px;
+		padding:4px 6px;
+		margin-bottom:10px;
+		font-size:16px;
+		line-height:20px;
+		color:#555;
+		vertical-align:middle;
+		-webkit-border-radius:5px;
+		-moz-border-radius:5px;
+		border-radius:5px;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 7px 9px;
+
+      }
+
+.loginBox input[type="text"]:focus,
+.loginBox input[type="password"]:focus{
+	border: 1px solid #3399FF;
+}
+.loginBox input[type="submit"]{
+	border: 1px solid #e5e5e5;
+	width: 105px;
+	height: 50px;
+	font-size:16px;
+	line-height:20px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	color: white;
+}
+
+
+
+/*COLORES DE FONDO*/
+.darkBlue{
+	background-color: #1168D9;
+}
+.blue{
+	background-color: #117CD9;
+}
+.white{
+	background-color: white;
+}
+.softBlue{
+	background-color: #0D9FD9;
+}
+/*BORDE GRIS*/
+.grayBorderBottom{
+	border-bottom: 1px solid gray;
+}
+
+/*WRAPPER*/
+.wrapper{
+	width: 950px;
+	margin: 0 auto;
+}
+
+/*TABLAS*/
+
+table{
+	width: 100%;
+	border:none;
+	border-spacing: 0;
+}
+tr{
+	height: 35px;
+}
+td,th{
+	vertical-align: middle;
+	padding-left: 20px;
+	border-top: .5px solid #CFCFCF;
+}
+
+th{
+	font-weight: bold;
+	text-align: left;
+}
+
+tr:nth-child(even) { 
+	background: #E5E5E5 
+}
+tr:nth-child(odd) { 
+}
+
+/*HEADER*/
+header{
+	width: 100%;
+	height: 65px;
+	padding-top:20px;
+	background-color: white;
+}
+.logo{
+	display: inline-block;
+
+	width:232px;
+	height:38px;
+	vertical-align: -40%;
+	background-image:url('../img/spritesMalaga.png');
+	background-repeat:no-repeat;
+	background-position:-95px -7px;
+}
+.logo:hover{
+	background-position:-97px -52px;
+}
+
+.titulo{
+	display: inline-block;
+	font-size: 32px;
+	float: right;
+}
+/* MENU Y SUBMENU*/
+.menu{
+	width: 100%;
+	height: 65px;	
+}
+.submenu{
+	width: 100%;
+	height: 30px;
+}
+.menu ul, .submenu ul{
+	list-style: none;
+	color: white;
+}
+.menu ul{
+	padding-top: 18px;
+}
+.submenu ul{
+	padding-top: 3px;
+}
+.menu li, .submenu li{
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+}
+.menu li:hover{
+	border-bottom: 3px solid white;
+	cursor: pointer;
+}
+.submenu li:hover{
+	border-bottom: 1px solid white;
+	cursor: pointer;
+}
+
+.menu li{
+	font-size: 25px;
+}
+
+.submenu li{
+	font-size: 17px;
+}
+/*MAIN BODY*/
+.cuerpoPrincipal{
+	padding-top: 40px;
+	min-height: 400px;
+	padding-bottom: 60px;
+}
+
+/* FOOTER */
+footer{
+	width: 100%;
+	height: 300px;
+	color: white;
+}
