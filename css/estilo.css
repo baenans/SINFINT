@@ -34,10 +34,16 @@ p{
 }
 
 h1{
+	font-size: 65px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+h2{
 	font-size: 35px;
 	font-weight: bold;
 	margin-bottom: 15px;
 }
+
 
 
 .big{
@@ -112,7 +118,21 @@ hr{
 	border-radius:5px;
 	color: white;
 }
-
+input[type="button"]{
+	border: 1px solid #e5e5e5;
+	width: auto;
+	height: 50px;
+	font-size:16px;
+	line-height:20px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	color: white;
+}
+.biggerButton{
+	width: 300px !important;
+	height: 50px;
+}
 
 
 /*COLORES DE FONDO*/
@@ -243,9 +263,10 @@ header{
 	padding-top: 40px;
 	min-height: 400px;
 	padding-bottom: 60px;
+}
+.alignCenter{
 	text-align:center;
 }
-
 /* FOOTER */
 footer{
 	width: 100%;
@@ -263,7 +284,7 @@ footer{
 }
 
 .grafica {
-	background:url(../facturacion/empresas.gif) no-repeat -20px 0;
+	background:url(../img/empresas.gif) no-repeat -20px 0;
 	width:276px;
 	height:196px;
 	/*Quitamos un cachito de imagen (recortar la imagen)*/
