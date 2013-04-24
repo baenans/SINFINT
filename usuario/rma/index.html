@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>RMA</title>
+	<link rel="stylesheet" type="text/css" href="../../css/estilo.css">
+</head>
+<body>
+
+	<header>
+		<div class='wrapper'>
+			<div class='logo'></div><div class='titulo'>Servicio de Control Telefónico</div>
+		</div>
+		&nbsp;
+	</header>
+
+	<nav class='menu darkBlue'>
+		<ul class='wrapper'>
+				<li><a href="../facturacion/index.htm">Facturaci&oacute;n</a></li>
+				<li><a href="../gruposrescate/index.htm">Grupos de Rescate</a></li>
+				<li><a href="../rma/index.html">Gesti&oacute;n RMA</a></li>
+				<li><a href="../inventario/index.html">Inventario Terminales</a></li>
+				<li><a href="../informe/index.html">Ver informe</a></li>
+				<li><a href="../categorias/index.htm">Gesti&oacute;n de Categor&iacute;as</a></li>
+		</ul>
+	</nav>
+
+	<nav class='submenu blue'>
+		<ul class='wrapper'>
+				<li><a href="../rma/index.html">Crear Incidencia</li>
+				<li><a href="../rma/historico.html">Histórico</li>	
+		</ul>
+	</nav>
+
+	<div class='cuerpoPrincipal wrapper'>
+		<form class="contactBox bordesRedondeados">
+				<h2>Nueva Incidencia</h2>
+				<br>
+				<label>Extensión </label><input type="text" name="extension"/><br>
+				<label>Número </label><input type="text" name="numero"/><br>
+				<label>IMEI </label><input type="text"/>
+				<div>Procedencia
+					<select>
+						<option value="d1">Departamento de Informática</option>
+  						<option value="d2">Descripcionartamento de Seguridad</option>
+  						<option value="d3">Departamento de Marketing</option>
+  						<option value="d4">Departamento de Relaciones Públicas</option>
+					</select>
+				</div>
+				<br>
+				<div>Fecha de reporte<input type="date"/></div>
+				<br>
+				<div>Causa de fallo
+					<select>
+						<option value="fallo1">Pantalla rota</option>
+  						<option value="fallo2">No funciona el 3G</option>
+  						<option value="fallo3">Las llamadas se cortan</option>
+  						<option value="fallo4">No reproduce ningún sonido</option>
+					</select>
+				</div>
+				<br>
+				<div>Descripcion<textarea>Añade información extra</textarea></div>
+		</form>
+		<br>
+		<br>	
+		<p class='alignCenter'><input type='button' class='biggerButton blue' value="Enviar Incidencia"></p>
+	</div>
+
+	<footer class='darkBlue'>
+		<div class='wrapper'>
+
+		</div>
+	</footer>
+</body>
+</html>
