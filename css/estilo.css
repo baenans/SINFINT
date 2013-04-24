@@ -327,11 +327,9 @@ footer{
 	margin-top:5px;
 }
 
-/*URL visitadas*/
-a{
+/*LINKS*/
+a, a:active, a:visited, a:hover {
+	/*HEREDAR COLOR DE LA CLASE SUPERIOR*/
+	color: inherit;
 	text-decoration: none;
-}
-
-a:visited {
-	color: white;
 }
