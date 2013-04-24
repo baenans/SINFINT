@@ -33,28 +33,15 @@
 				<li><a href='./contacto.htm'>Contacta</a></li>
 		</ul>
 	</nav>
-
 	<div class='cuerpoPrincipal wrapper alignCenter'>
-		<h2>Contacta con nosotros</h2>
-		<table class='ContactaBox'>
-			<tr>
-				<td class='campoFactura'>Motivo de contacto: </td>
-				
-			</tr>
-			<tr>
-				<td class='campoFactura'><input type='text'></td>
-			</tr>
-			<tr>
-				<td class='campoFactura'>Comentarios:</td>
-			</tr>
-			<tr>
-				<td class='campoFactura'><textarea class='areaCont'></textarea></td>
-			</tr>
-		</table>
-		<div class='loginBox bordesRedondeados'>
+		<form class='contactBox bordesRedondeados'>
+			<h2>Contacta con nosotros</h2>
+			<label>Motivo de contacto: </label><input type='text' name='motivo'><br>
+			<label>Comentarios:</label><br>
+			<textarea></textarea><br>
 			<input type='submit' class='blue' value="Enviar"> 
 			<input type='submit' class='blue' value="Cancelar">
-		</div>
+		</form>
 	</div>
 
 	<footer class='darkBlue'>

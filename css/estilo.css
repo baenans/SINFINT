@@ -79,8 +79,8 @@ hr{
 	font-weight: bold;
 	margin-bottom: 15px;
 }
-.loginBox input[type="text"],
-.loginBox input[type="password"] {
+input[type="text"],
+input[type="password"] {
 		border: 1px solid #e5e5e5;
 		display:block;
 		width:100%;
@@ -103,11 +103,12 @@ hr{
 
       }
 
+
 .loginBox input[type="text"]:focus,
 .loginBox input[type="password"]:focus{
 	border: 1px solid #3399FF;
 }
-.loginBox input[type="submit"]{
+input[type="submit"]{
 	border: 1px solid #e5e5e5;
 	width: 105px;
 	height: 50px;
@@ -175,10 +176,6 @@ td,th{
 	border-top: .5px solid #CFCFCF;
 }
 /*Modificado para hacer faturacion*/
-th, .campoFactura{
-	font-weight: bold;
-	text-align: left;
-}
 
 .infoFactura {
 	color:#777777;
@@ -303,20 +300,32 @@ footer{
 	text-decoration:none;
 	color: #FFFFFF;
 }
-.ContactaBox input[type="text"]{
-	border: 1px solid #e5e5e5;
-	width: 50%;
-	height: 30px;
-	font-size:16px;
-	line-height:20px;
-	-webkit-border-radius:5px;
-	-moz-border-radius:5px;
-	border-radius:5px;
-	color: black;
+.contactBox{
+	 	max-width: 850px;
+        padding: 19px 29px 29px;
+        margin: 20px auto 20px;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+        -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+		box-shadow: 0 1px 2px rgba(0,0,0,.05);
+		text-align: left;
 }
-.areaCont{
+.contactBox input[type="text"]{
+	display: inline-block;
+	width:80%;
+	margin-left: 20px;
+	clear: none;
+}
+
+textarea{
 	border: 1px solid #e5e5e5;
-	width: 910px;
+	border: 1px solid #e5e5e5;
+	display:block;
+	width:100%;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;	
 	height: 100px;
 	font-size:16px;
 	line-height:20px;
