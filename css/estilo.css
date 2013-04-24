@@ -347,3 +347,14 @@ a, a:active, a:visited, a:hover {
 	text-decoration: none;
 }
 
+/*CATEGORIAS*/
+h3{
+
+	font-size: 25px;
+
+	font-weight: bold;
+
+	margin-bottom: 15px;
+
+}
+
