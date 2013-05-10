@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>DIPUTACI&Oacute;N DE M&Aacute;LAGA</title>
+
+	<style type="text/css">
+
+/*RESET CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+header{
+
+	/*background: #ccc;*/
+	/*altura y ancura*/
+	height: 55px;
+	width: 100%;
+	/*propiedad de CSS border con un tamaño de 1px, sólido y con un color en rgb (podría haber usado hexadecimal)*/
+	border-bottom: 1px solid rgb(240,240,240);
+}
+
+#central{
+	/*alineación horizontal*/
+	margin: 0px auto;
+	/*anchura y altura*/
+	width: 1000px;
+	height: 100%;
+	/*color de fondo: he usado un nombre, pero puedo usar hexadecimal, rgb... */
+	background: white;
+}
+#menu{
+	/*el menú de opciones flota a la derecha*/
+	float: right;
+	/*anchura y altura*/
+	width: 360px;
+	height: 36px;
+	/*márgenes interiores*/
+	padding-left: 20px;
+	padding-top: 19px;
+	/*color de fondo (suelo usarlo para guiarme)*/
+	/*background: red;*/
+
+	/*quita el estilo de lista*/
+	list-style: none;
+}
+#menu li{
+	/*muestra cada objeto de la lista justo en la misma línea*/
+	display: inline-block;
+	/*dejo un margen exterior*/
+	margin-left:15px;
+	/*propiedades de la fuente*/
+	font-family:'DroidSans',"Helvetica Neue","HelveticaNeue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-size: 14px;
+	/*color de fuente*/
+	color:#505050;
+}
+#menu li:hover{
+	border-bottom: 2px solid #3366CC;
+	cursor: pointer;
+}
+
+/*El siguiente estilo está preparado para usar la imagen spritesMalaga.png del directorio img*/
+#diputa{
+	/*Dentro del div diputa estará la imagen de diputación como fondo*/
+	/*Pegamos este div a la izquierda*/
+	float: left;
+	/*Le damos la dimensión que tiene la imagen*/
+	width:230px;
+	height: 43px;
+	/*Hacemos que se separe el div de arriba (top)*/
+	margin-top: 5px;
+	/*ponemos como imagen de fondo el archivo spritesMalaga.png, desplazándolo 95px a la izquierda y 2px hacia arriba*/
+	/*esto hace que se muestren 230x43 px correspondientes a la imagen de dpton coloreada*/
+	background:url(img/spritesMalaga.png) no-repeat -95px -2px;
+}
+
+#diputa:hover{
+	/*al pasar el ratón sobre el div hacemos que la imagen se desplace esta vez
+	97px a la izquierda y 47 hacia arriba, haciendo que se muestren 230x43 px de la imagen de dpton en gris*/
+	background:url(img/spritesMalaga.png) no-repeat -97px -47px;
+}
+	</style>
+
+
+</head>
+<body>
+
+	<header>
+		<div id="central">
+
+			<!-- Así se hace un comentario en HTML-->
+
+			<div id="diputa"></div>
+			<!-- Si no sabes qué hago en la línea de arriba, coméntala y descomenta la de abajo-->
+			<!--<img src="img/logodiputacion.png">-->
+
+		<ul id="menu">
+			<li>Temas</li>
+			<li>Sede Electr&oacute;nica</li>
+			<li>La Diputaci&oacute;n</li>
+		</ul>
+
+		</div>
+	</header>
+
+	
+
+
+</body>
+
+</html>

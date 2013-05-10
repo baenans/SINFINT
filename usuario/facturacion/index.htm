@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Facturaci&oacute;n</title>
 	<link rel="stylesheet" type="text/css" href="../../css/estilo.css">
+    <script type="text/javascript" src="facturacion.js"></script>
+    <script type="text/javascript" src="tratarXML.js"></script>
 </head>
 <body>
 
@@ -35,34 +37,18 @@
 	</nav>
 
 	<div class='cuerpoPrincipal wrapper alignCenter'>
-		<h2>Fecha Factura: XX-XX-XXXX XX-XX-XXXX</h2>
-
-		<table class='cuerpoFacText'>
-			<tr>
-				<td class='campoFactura'>Nombre:</td>
-				<td class='infoFactura'>XXXXX</td>
-			</tr>
-			<tr>
-				<td class='campoFactura'>Apellidos:</td>
-				<td class='infoFactura'>XXXXXXX XXXXXXXX</td>
-			</tr>
-			<tr>
-				<td class='campoFactura'>Direccion:</td>
-				<td class='infoFactura'>XXXXXXXX ZZZZZZZZ</td>
-			</tr>
-			<tr>
-				<td class='campoFactura'>Subtotal:</td>
-				<td class='infoFactura'>····</td>
-			</tr>
-			<tr>
-				<td class='campoFactura'>IVA:</td>
-				<td class='infoFactura'>·%</td>
-			</tr>
-			<tr>
-				<td class='campoFactura'>Total:</td>
-				<td class='infoFactura'>·····</td>
-			</tr>
+    	
+		<h2 id="hFactura"></h2>
+		<div>
+        	<span onClick="cargarFactura(0);" style="color:#4092CF;cursor:pointer;text-decoration:none;">Anterior</span>
+            <span onClick="cargarFactura(1);" style="color:#4092CF;cursor:pointer;text-decoration:none;">Siguiente</span>
+        </div>
+		<table id="tFactura" class='cuerpoFacText'>
+        
 		</table>
+        <script type="text/javascript">
+			cargarFactura(0);
+		</script>
 		<span class='cuerpoFacText grafica'></span>
 	</div>
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facturas>
+    <factura>
+        <Fecha1>01/03/2013</Fecha1>
+        <Fecha2>02/04/2013</Fecha2>
+        <Nombre>Juan Jesus</Nombre>
+		<Apellidos>Lopez Mendoza</Apellidos>
+        <Direccion>Casa de Juan Jesus</Direccion>
+        <Subtotal>15,54 €</Subtotal>
+		<IVA>21%</IVA>
+		<Total>18,8034 €</Total>
+    </factura>
+	<factura>
+        <Fecha1>02/04/2013</Fecha1>
+        <Fecha2>03/05/2013</Fecha2>
+        <Nombre>Juan Jesus</Nombre>
+		<Apellidos>Lopez Mendoza</Apellidos>
+        <Direccion>Casa de Juan Jesus</Direccion>
+        <Subtotal>32,11 €</Subtotal>
+		<IVA>21%</IVA>
+		<Total>38,8531 €</Total>
+    </factura>
+</facturas>
