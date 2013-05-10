@@ -1,0 +1,21 @@
+<html> 
+<head> 
+	<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"> 
+	<title>Formulario para a&ntilde;adir cosas a la sesi&oacute;n</title> 
+</head> 
+<body> 
+<form method="get" action="/contexto/SessionServlet" name="datos"> 
+	Atributo: <input name="parametro"><br> 
+	<input name="parametro"><br> 
+	Valor: <input name="valor"><br> 
+	<input name="valor"><br> 
+	<input name="accion" value="anhadir" type="hidden"><br> 
+	name="accion" value="anhadir" type="hidden"><br> 
+	<button>Añadir parámetro a la sesión</button> 
+</form> 
+<form method="get" action="/contexto/SessionServlet"> 
+	<input name="accion" value="invalidar" type="hidden"> 
+	<button>Invalidar sesion</button> 
+	</form> 
+</body> 
+</html> 
